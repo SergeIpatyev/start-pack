@@ -1,0 +1,1 @@
+So right now it's just "startpack" for reactJS development
