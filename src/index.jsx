@@ -1,15 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import { store } from './store/configureStore'
+import App from './app/app'
 
-class Welcome extends React.Component {
-    render() {
-        return (
-            <React.Fragment>
-                <h1>Hello Sereja</h1>,
-                <h1>test test lol</h1>
-            </React.Fragment>
-            );
-    }
-}
-
-ReactDOM.render(<Welcome/>, document.getElementById('app'));
+render(
+	<Provider store={store}>
+		<App />
+	</Provider>,
+	document.getElementById('app')
+)
