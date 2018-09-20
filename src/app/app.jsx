@@ -41,7 +41,11 @@ class App extends React.Component {
 				ref={ (divElement) => this.divElement = divElement}>
 				<a href="tel:+79139469608" className="mobile">+7 (913) 946 96 08</a>
 					<Logo {...props}/>
-				<a href="mailto:ipatieff@yandex.ru" className="email">ipatieff@yandex.ru</a>				
+				<ul  className="email">
+					<li><a href="mailto:ipatieff@yandex.ru">ipatieff@yandex.ru</a></li>
+					<li><a href="https://novosibirsk.hh.ru/resume_converter/Ipatieff%20Serge.pdf?hash=fa29ecf5ff037bd5ba0039ed1f79536e6c5248&type=pdf">Upload CV</a></li>
+					<li><a href="https://github.com/ipatieff" target="_blank" rel="nofollow noopener">Repo</a></li>
+				</ul>
 			</div>
 		);
 	}
