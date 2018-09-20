@@ -1,1 +1,1 @@
-So right now it's just "startpack" for reactJS development
+Just my site https://ipatieff.me
