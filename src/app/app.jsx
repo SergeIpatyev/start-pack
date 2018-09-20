@@ -43,7 +43,7 @@ class App extends React.Component {
 					<Logo {...props}/>
 				<ul  className="email">
 					<li><a href="mailto:ipatieff@yandex.ru">ipatieff@yandex.ru</a></li>
-					<li><a href="https://novosibirsk.hh.ru/resume_converter/Ipatieff%20Serge.pdf?hash=fa29ecf5ff037bd5ba0039ed1f79536e6c5248&type=pdf">Upload CV</a></li>
+					<li><a href="ipatieff.pdf">Upload CV</a></li>
 					<li><a href="https://github.com/ipatieff" target="_blank" rel="nofollow noopener">Repo</a></li>
 				</ul>
 			</div>
